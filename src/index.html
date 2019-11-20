@@ -1,0 +1,53 @@
+<!-- gulp-to-webpack/src/index.html -->
+<!DOCTYPE html>
+ <html lang=”en”>
+ <head>
+   <head>
+     <link rel="stylesheet" href="css/styles.css">
+     <link rel="stylesheet" href="build/css/vendor.css">
+     <script src="build/js/vendor.min.js"></script>
+     <script type="text/javascript" src="build/js/app.js"></script>
+     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+     <title>Hungry Bear</title>
+   </head>
+   <body>
+     <div id="hungry-bear-container">
+       <div id="hungry-bear">
+         <div id="hunger-level">
+           <h1>Hunger: <span id="outcome"></span></h1>
+         </div>
+         <div id="droppable" class="ui-widget-header"> <!--Target -hungry bear's mouth-->
+             <p>Drop here</p>
+         </div>
+       </div>
+
+       <div class="the-draggables">
+         <!-- Small items -->
+         <div id="blueberries" class="draggable" class="ui-widget-content"></div>
+         <div id="fish" class="draggable" class="ui-widget-content"></div>
+         <div id="leaves" class="draggable" class="ui-widget-content"></div>
+         <!-- Medium items -->
+         <div id="honey" class="draggable" class="ui-widget-content"></div>
+         <div id="raccoon" class="draggable" class="ui-widget-content"></div>
+         <div id="owl" class="draggable" class="ui-widget-content"></div>
+         <!-- Big items -->
+         <div id="mountainLion" class="draggable" class="ui-widget-content"></div>
+         <div id="flatTire" class="draggable" class="ui-widget-content"></div>
+         <div id="deer" class="draggable" class="ui-widget-content"></div>
+         <!-- human item -->
+         <div id="human" class="draggable" class="ui-widget-content"></div>
+         <!-- doughnut item -->
+         <div id="chocolateD" class="draggable" class="ui-widget-content"></div>
+       </div> <!--TheDraggables closing div-->
+   </div> <!-- Hungry Bear container closing div-->
+     <br>
+
+     <div id="lose">
+       <h1>The bear ate you. You lose!</h1>
+     </div>
+ </head>
+ <body>
+ <h1>Test Doc</h1>
+ </body>
+ </html>
